@@ -439,3 +439,24 @@ a {
     color: #ef8641;
     font-weight: 700;
 }
+
+
+audio {
+    width: 100%;
+    padding: -2rem 0;
+    border-radius: 0%;
+    background-color: #F2F2F2;    
+}
+
+.estoque__inspect-button-music {
+    border-radius: 5px;
+    margin-top: .2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #F2F2F2;
+    color: #F2F2F2;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 2) 0px 5px 15px;
+    transition: 0.5s;
+    font-weight: 700;
+}

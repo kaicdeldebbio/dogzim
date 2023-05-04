@@ -1,0 +1,441 @@
+.testekaka {
+    background: rgb(55,39,164);
+    background: linear-gradient(90deg, rgba(55,39,164,1) 0%, rgba(44,29,135,1) 47%, rgba(175,135,255,1) 100%);
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'Krub', sans-serif;
+    color: white;
+}
+
+.title2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Krub', sans-serif;
+    color: black;
+}
+
+body {
+    font-family: 'Krub', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header {
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #F2F2F2;
+    background-color: #181818;
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.header__discord {
+    width: 15px;
+}
+
+/* About */
+    .about {
+        text-align: center;
+    }
+
+    .about__logo {
+        width: 300px;
+    }
+
+    .about__name {
+        font-size: 5rem;
+        font-weight: bold;
+        padding-bottom: .5rem;
+    }
+
+    .about__level {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: .5rem;
+    }
+
+    .about__description {
+        font-weight: normal;
+        font-size: 1.25rem;
+    }
+/* About */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Banner ~~~~~~~~~~~~~~~~~~~~~~~~ */
+.banner {
+    display: flex;
+    
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+}
+
+.banner__image {
+    
+    width: 55%;
+    border-radius: 5px;
+    display: flex;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Banner ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Estoque ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.estoque {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Krub', sans-serif;
+    gap: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 0px) {
+    .estoque {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .estoque {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.estoque__box {
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 2) 0px 5px 15px;
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.estoque__weapon-title {
+    font-weight: 700;
+    padding-top: .3rem;
+    color: rgb(55,39,164);
+}
+
+.estoque__weapon-health {
+    font-weight: 700;
+}
+
+.estoque__product-image {
+    width: 100%;
+    border-radius: 5px;
+    margin: .5rem 0;
+}
+
+.estoque__float-orange{
+    color: #ef8641;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.estoque__trade-status {
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+
+.estoque__price-old {
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.estoque__price {
+    color: green;
+    font-weight: 700;
+}
+
+.estoque__inspect-button {
+    border-radius: 5px;
+    margin-top: .2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #181818;
+    color: #F2F2F2;
+    width: 100%;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.estoque__inspect-button:hover {
+    transition: 0.5s;
+    background-color: rgb(55,39,164);
+}
+
+.estoque__icon-steam {
+    width: 15px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Estoque ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+
+.estoque__inspect-button2 {
+    border-radius: 5px;
+    margin-top: .2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #181818;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.estoque__inspect-button2:hover {
+    transition: 0.5s;
+    background-color: green;
+    
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+.project__description-float-yellow {
+    color: #dfc04a;
+    font-weight: 700;
+    
+}
+
+.project__description-float-red {
+    color: #eb5757;
+    font-weight: 700;
+    
+}
+
+
+
+
+
+
+
+
+
+/* Contact */
+.contact {
+    padding: 1rem 0;
+    background-color: #F2F2F2;
+    color: var(--branco);
+}
+
+input {
+    background-color: #f2f2f2;
+}
+
+.contact input {
+    display: flex;
+    margin: .3rem auto;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.contact__message {
+    border-radius: 5px;
+    padding: .6rem;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.contact__button {
+    border-radius: 5px;
+    display: flex;
+    margin: .5rem auto;
+    padding: 1rem 0;
+    justify-content: center;
+    cursor: pointer;
+    color: #f2f2f2;
+    border: none;
+    background-color: #181818;
+}
+/* Contact */
+
+/* Footeer */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #181818;
+    color: white;
+    font-family: 'Krub', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+.projects {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Krub', sans-serif;
+    
+}
+
+.project__branding {
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    color: #181818;
+    
+}
+
+.project__title {
+    font-weight: 700;
+    padding-top: .3rem;
+    color: rgb(55,39,164);
+}
+
+.project__image {
+  
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+.project__description {
+    word-wrap: normal;
+    font-weight: 700;
+}
+
+.price {
+    color: green;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.project__button {
+    border-radius: 5px;
+    margin-top: .2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #181818;
+    color: #F2F2F2;
+    width: 100%;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.project__button:hover {
+    transition: 0.5s;
+    background-color: rgb(55,39,164);
+    
+}
+
+.project__button2 {
+    border-radius: 5px;
+    margin-top: .2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #181818;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.project__button2:hover {
+    transition: 0.5s;
+    background-color: green;
+    
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+.project__description-float-yellow {
+    color: #dfc04a;
+    font-weight: 700;
+    
+}
+
+.project__description-float-red {
+    color: #eb5757;
+    font-weight: 700;
+    
+}
+
+.project__description-float-orange {
+    color: #ef8641;
+    font-weight: 700;
+}

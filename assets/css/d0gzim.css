@@ -101,12 +101,21 @@
     .estoque {
         display: flex;
     }
+
+    .estoque-influencer {
+        width: 30%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
     .estoque {
         display: flex;
         flex-direction: column;
+    }
+
+    .estoque-influencer {
+        width: 100%;
     }
 }
 
@@ -126,7 +135,6 @@
     justify-content: center;
     font-family: 'Krub', sans-serif;
     gap: 10px;
-    width: 30%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }

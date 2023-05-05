@@ -121,6 +121,16 @@
     padding: .5rem;
 }
 
+.estoque-influencer {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Krub', sans-serif;
+    gap: 10px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
 .estoque__box-influencer {
     width: 50%;
     border: 2px solid #F2F2F2;
@@ -131,10 +141,11 @@
     display: flex;
     flex-direction: column;
     padding: .5rem;
+    margin: 0 auto;
 }
 
 .estoque__product-image-influencer {
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
     margin: .5rem 0;
 }

@@ -121,6 +121,25 @@
     padding: .5rem;
 }
 
+.estoque__box-influencer {
+    width: 50%;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 2) 0px 5px 15px;
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.estoque__product-image-influencer {
+    width: 50%;
+    border-radius: 5px;
+    margin: .5rem 0;
+}
+
+
 .estoque__weapon-title {
     font-weight: 700;
     padding-top: .3rem;
